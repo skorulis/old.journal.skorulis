@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-
     {% if page.layout == 'home' %}
       {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
     {% endif %}
@@ -71,7 +70,6 @@
     </section>
 
     <section class="main-content">
-
       {{ content }}
 
       <footer class="site-footer">
