@@ -140,3 +140,8 @@
   display: block;
   @include relative-font-size(1.5);
 }
+
+.PageNavigation .next {
+  text-align: right;
+  float:right;
+}
